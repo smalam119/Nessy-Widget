@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Nessy</string>
+    <string name="action_settings">Settings</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="apply">Apply</string>
+    <string name="placeholder_quotes">What goes around, comes around</string>
+    <string name="placeholder_quotes_long">What comes around, goes around, What comes around, goes around, What comes around,
+        goes around, What comes around, goes around</string>
+    <string name="placeholder_author">Unknown</string>
+    <string name="placeholder_date">Jan 19, 2018</string>
+    <string name="time_interval">Choose Time Interval</string>
+    <string name="quotes_type">Choose Quotes Type</string>
+    <string name="six_hour">6 Hrs</string>
+    <string name="twelve_hour">12 Hrs</string>
+    <string name="twenty_four_hour">24 Hrs</string>
+    <string name="inspire">Inspirational</string>
+    <string name="funny">Funny</string>
+</resources>

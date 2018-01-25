@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/cover_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/nessy"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="@dimen/margin_8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/margin_8dp"
+        android:layout_marginRight="@dimen/margin_8dp">
+
+        <TextView
+            android:id="@+id/time_interval_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time_interval"
+            style="@style/MediumText"/>
+
+
+        <RadioGroup
+            android:id="@+id/time_interval_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/six_hour"
+                android:text="@string/six_hour"
+                android:layout_marginRight="@dimen/margin_16dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/twelve_hour"
+                android:text="@string/twelve_hour"
+                android:layout_marginRight="@dimen/margin_16dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/twenty_four"
+                android:text="@string/twenty_four_hour"
+                android:layout_marginRight="@dimen/margin_16dp"/>
+
+            </RadioGroup>
+
+        <TextView
+            android:id="@+id/quotes_type_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quotes_type"
+            style="@style/MediumText"
+            android:layout_marginTop="@dimen/margin_16dp"/>
+
+
+        <RadioGroup
+            android:id="@+id/quotes_type_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/funny"
+                android:text="@string/funny"
+                android:layout_marginRight="@dimen/margin_16dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/inspire"
+                android:text="@string/inspire"
+                android:layout_marginRight="@dimen/margin_16dp"/>
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/apply" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
